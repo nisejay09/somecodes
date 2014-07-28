@@ -1,0 +1,11 @@
+{
+    "code":1,
+    "data":[
+            {"id": 1, "name": "李四", "age": 24, "job": "programmer"},
+            {"id": 2, "name": "王五", "age": 26, "job": "manager"},
+            {"id": 3, "name": "张三", "age": 19, "job": "boss"},
+            {"id": 4, "name": "王麻子", "age": 30, "job": "dba"},
+            {"id": 5, "name": "宝器", "age": 25, "job": "engineer"}
+        ],
+    "msg":"success"
+}
