@@ -1,5 +1,5 @@
 /**
- * 异步操作之事件驱动
+ * 异步操作之Promise
  */
 
 function callback(deferred) {
@@ -41,7 +41,8 @@ function dealDataInTurn() {
         .then(function (data) {
             console.log(data);
             return getDataTwo();
-        }).then(function (data) {
+        })
+        .then(function (data) {
             console.log(data);
             var et = new Date().getTime();
             console.log("耗时："+ (et-st));
@@ -63,9 +64,9 @@ function dealDataAll() {
 
 
 function init() {
-//    dealDataInTurn();//串行异步
+    dealDataInTurn();//串行异步
 
-    dealDataAll();//并行异步
+ //   dealDataAll();//并行异步
 }
 
 
